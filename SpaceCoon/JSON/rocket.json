@@ -1,0 +1,6 @@
+{
+  "hitPoints": 5,
+  "collisionDmg": 5,
+  "collisionOn": false,
+  "velocity": [0.0, 6.0]
+}

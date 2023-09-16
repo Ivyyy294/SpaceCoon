@@ -1,0 +1,9 @@
+{
+  "cost":  10,
+  "CollisionBox": [
+    {
+      "Size": [ 182, 16 ],
+      "Position": [ 0, 0 ]
+    }
+  ]
+}

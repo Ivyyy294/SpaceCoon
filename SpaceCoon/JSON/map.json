@@ -1,0 +1,14 @@
+{
+	"map":
+	{
+		"name": "test",
+		"objects":
+		[
+			{
+				"typId": "",
+				"xPos": 0,
+				"yPos": 0,
+			},	
+		]
+	}
+}

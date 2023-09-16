@@ -1,0 +1,13 @@
+{
+  "hitPoints": 100,
+  "collisionDmg": 1,
+  "collisionOn": true,
+  "velocity": [ 0.0, 2.0 ],
+  "LaserCoolDownMs": 4000,
+  "LaserMiniCoolDownMs": 500,
+  "LaserMaxCount": 3,
+  "LaserSalvo": 6,
+  "LaserSalvoAngle":  9,
+  "MaxRotAngle": 75,
+  "hitpointsShild": 100
+}

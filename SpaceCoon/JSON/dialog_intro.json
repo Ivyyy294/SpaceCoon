@@ -1,0 +1,12 @@
+{
+  "fontColor": [ 255, 111, 255, 255 ],
+  "fontSize": 18,
+  "xPos": 576,
+  "yPos": 768,
+  "text_speed": 3,
+  "Dialogs": [
+    "Welcome Pilot!...",
+    "Use the arrow key to navigate...\nUse [F] to fire...",
+    "Lets get you started... !"
+  ]
+}

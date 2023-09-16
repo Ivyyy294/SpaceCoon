@@ -1,0 +1,16 @@
+{
+  "position": [
+    795,
+    25
+  ],
+  "positionHealthBar": [
+    910,
+    51
+  ],
+  "paddingHealthBar": 25,
+  "positionShield": [
+    932,
+    118
+  ],
+  "hpWarningFlashSPeed": 30
+}

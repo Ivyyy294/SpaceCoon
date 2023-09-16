@@ -1,0 +1,10 @@
+{
+  "collisionDmg": 5,
+  "collisionOn": true,
+  "velocity": [ 0.0, 8.0 ],
+  "hitpoints128": 15,
+  "hitpoints256": 25,
+  "maxcount": 6,
+  "maxTrajectory": 15.0,
+  "maxRotation": 1
+}

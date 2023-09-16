@@ -1,0 +1,6 @@
+{
+  "TextureId": "DIALOG_INTRO",
+  "DialogStyle": "QDialog {background-color: rgb(0, 0, 0)}",
+  "LabelStyle": "QLabel { background-color: black; color: rgb(199, 0, 155); font-size: 35pt}",
+  "LineEditStyle": "QLineEdit { background-color: black; color: rgb(199, 0, 155); border:none; font-size: 35pt}"
+}

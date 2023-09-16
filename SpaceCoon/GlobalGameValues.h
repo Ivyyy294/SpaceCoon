@@ -1,0 +1,72 @@
+#pragma once
+#include <map>
+
+//LEVELIDS
+#define LEVELID_INTRO "INTRO"
+#define LEVELID_NORMAL "NORMAL"
+#define LEVELID_HARDCORE "HARDCORE"
+#define LEVELID_SCORE "SCORE"
+
+//TYPIDS
+
+#define TYPID_BOSS "BOSS"
+#define TYPID_ENEMY "ENEMY"
+#define TYPID_SHIELD "SHIELD"
+#define TYPID_EXPLOSION "EXPLOSION"
+#define TYPID_EXPLOSION_2 "EXPLOSION_2"
+#define TYPID_EXPLOSION_3 "EXPLOSION_3"
+#define TYPID_ASTEROID "ASTEROID"
+#define TYPID_ASTEROID_256 "ASTEROID_256"
+#define TYPID_ASTEROID_128 "ASTEROID_128"
+#define TYPID_PLAYER "PLAYER"
+#define TYPID_LASER "LASER"
+#define TYPID_LASER_2 "LASER_2"
+#define TYPID_LASER_3 "LASER_3"
+#define TYPID_LASER_BLUE "LASER_BLUE"
+#define TYPID_LASER_BLUE_2 "LASER_BLUE_2"
+#define TYPID_LASER_BLUE_3 "LASER_BLUE_3"
+#define TYPID_HUD_TOP "HUD_TOP"
+#define TYPID_HUD_BOTTOM "HUD_BOTTOM"
+#define TYPID_HUD "HUD"
+#define TYPID_HP "HP"
+#define TYPID_HP_UP "HP_UP"
+#define TYPID_HUD_HIT "HUD_HIT"
+#define TYPID_TEXT_SCORE "TEXT_SCORE"
+#define TYPID_TEXT_LOST "TEXT_LOST"
+#define TYPID_SCORE_LIST "SCORE_LIST"
+#define TYPID_SHIELD_BAR "SHIELD_BAR"
+#define TYPID_SHIELD_BAR_2 "SHIELD_BAR_2"
+#define TYPID_SHIELD_BAR_3 "SHIELD_BAR_3"
+#define TYPID_ROCKET "ROCKET"
+#define TYPID_SHIELD_UP "SHIELD_UP"
+#define TYPID_HUD_HP_WARNING "HUD_HP_WARNING"
+#define TYPID_STATIC "STATIC"
+#define TYPID_SHIELD_BURST "SHIELD_BURST"
+#define TYPID_SHIELD_BURST_2 "SHIELD_BURST_2"
+#define TYPID_SHIELD_BURST_3 "SHIELD_BURST_3"
+#define TYPID_SHIELD_BURST_4 "SHIELD_BURST_4"
+
+//Dialog
+#define TYPID_DIALOG_INTRO "DIALOG_INTRO"
+
+//
+
+class GlobalGameValues
+{
+private:
+	GlobalGameValues()
+	: scorePoints (0)
+		, playerHealth (3)
+		, difficulty (0)
+	{};
+
+public:
+	static GlobalGameValues& Me();
+
+public:
+	size_t scorePoints;
+	size_t difficulty;
+	char playerHealth;
+	bool showHUDDmgIndicator;
+};
+

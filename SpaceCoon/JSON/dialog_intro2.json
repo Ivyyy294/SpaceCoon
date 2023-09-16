@@ -1,0 +1,14 @@
+{
+  "fontColor": [ 255, 111, 255, 255 ],
+  "fontSize": 18,
+  "xPos": 576,
+  "yPos": 768,
+  "text_speed": 3,
+  "Dialogs": [
+    "<--downloading flight path-->\n........",
+    "<--complete-->",
+    "Thanks buddy..",
+    "Let's see.... the XXX asteroid belt?\nInteresting...",
+    "That won't safe you!\nLet's get this party started!"
+  ]
+}

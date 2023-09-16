@@ -1,0 +1,26 @@
+{
+  "hitPoints": 3,
+  "MaxHitPoints": 7,
+  "collisionDmg": 0,
+  "collisionOn": true,
+  "velocity": [ 0.0, 8.0 ],
+  "LaserCoolDownMs": 40,
+  "LaserMiniCoolDownMs": 24,
+  "LaserMaxCount": 5,
+  "MaxRotAngle": 40,
+  "hitpointsShild": 20,
+  "MaxHitpointsShild": 30,
+  "acceleration": 0.05,
+  "deacceleration": 0.01,
+  "rotationSpeed": 2,
+  "CollisionBox": [
+    {
+      "Size": [32, 80],
+      "Position": [32, 6]
+    },
+    {
+      "Size": [92, 38],
+      "Position": [2, 42]
+    }
+  ]
+}

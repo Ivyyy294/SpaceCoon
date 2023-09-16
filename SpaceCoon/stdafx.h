@@ -1,0 +1,20 @@
+#pragma once
+#include <QtWidgets/QDialog>
+#include <QKeyEvent>
+#include <qpainter.h>
+#include <time.h>
+#include <qstring.h>
+#include <QtWidgets/QApplication>
+#include <QtMultimedia/qsoundeffect.h>
+#include <cassert>
+#include <qguiapplication.h>
+#include <qscreen.h>
+
+#include "Layer.h"
+#include "Meteorit.h"
+#include "painter.h"
+#include "ShipPlayer.h"
+#include "Laser.h"
+#include "GlobalGameValues.h"
+#include "GlobalDef.h"
+#include "GObjectHandler.h"

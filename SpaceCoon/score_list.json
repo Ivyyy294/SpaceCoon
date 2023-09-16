@@ -1,0 +1,17 @@
+{
+    "Position": [
+        560,
+        90
+    ],
+    "TypId": "SCORE_LIST",
+    "collisionDmg": 0,
+    "collisionOn": false,
+    "hitPoints": 0,
+    "isSolid": false,
+    "scorelist": [
+    ],
+    "velocity": [
+        0,
+        0
+    ]
+}

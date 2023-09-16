@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images/shot.png</file>
+        <file>Images/Background.png</file>
+        <file>Images/Meteorit.png</file>
+        <file>Images/player.png</file>
+        <file>Images/Meteorit25.png</file>
+        <file>Images/Meteorit50.png</file>
+        <file>Images/Meteorit75.png</file>
+        <file>Images/Explosion.png</file>
+    </qresource>
+</RCC>

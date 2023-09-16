@@ -1,0 +1,8 @@
+{
+  "sounds": [
+    [ "ALERT", ":/sounds/ALERT"],
+    [ "LASER", ":/sounds/LASER" ],
+    [ "EXPLOSION", ":/sounds/EXPLOSION" ],
+    [ "BGM", ".\\sounds\\cyber_implant_in_my_butt.wav" ]
+  ] 
+}

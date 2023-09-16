@@ -1,0 +1,18 @@
+{
+  "size": [
+    500,
+    900
+  ],
+  "positionOffset": [
+    125,
+    100
+  ],
+  "fontsize": 30,
+  "maxanz": 10,
+  "fontcolor": [
+    199,
+    0,
+    155,
+    255
+  ]
+}

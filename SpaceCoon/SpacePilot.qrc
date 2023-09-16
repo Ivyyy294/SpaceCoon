@@ -1,0 +1,52 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images/Button2.png</file>
+        <file>Images/Background.png</file>
+        <file>Images/Explosion.png</file>
+        <file>Images/player.png</file>
+        <file>Images/enemy.png</file>
+        <file>Images/HUD_HIT.png</file>
+        <file>Images/Menue.png</file>
+        <file>Images/EnergyShield.png</file>
+        <file>Images/DialogBackground.png</file>
+        <file>Images/Asteroid_128.png</file>
+        <file>Images/Asteroid_128_2.png</file>
+        <file>Images/Asteroid_128_3.png</file>
+        <file>Images/Asteroid_256.png</file>
+        <file>Images/Asteroid_256_2.png</file>
+        <file>Images/Asteroid_256_3.png</file>
+        <file>Images/Button.png</file>
+        <file>Images/HUD.png</file>
+        <file>Images/healthbar.png</file>
+        <file>Images/HudBottom.png</file>
+        <file>Images/HudTop.png</file>
+        <file>Images/shieldbar.png</file>
+        <file>Images/explosion_2.png</file>
+        <file>Images/explosion_3.png</file>
+        <file>Images/laser.png</file>
+        <file>Images/laser2.png</file>
+        <file>Images/laser3.png</file>
+        <file>Images/rocket.png</file>
+        <file>Images/ShieldBar_2.png</file>
+        <file>Images/ShieldBar_3.png</file>
+        <file>Images/ShieldUp.png</file>
+        <file>Images/HpUp.png</file>
+        <file>Images/laser_blue.png</file>
+        <file>Images/laser_blue_2.png</file>
+        <file>Images/laser_blue_3.png</file>
+        <file>Images/HUD_HP_WARNING.png</file>
+        <file>Images/static.png</file>
+        <file>Images/Space Coon Logo2.png</file>
+        <file>Images/boss.png</file>
+        <file>Images/ShieldBurst_1.png</file>
+        <file>Images/ShieldBurst_2.png</file>
+        <file>Images/ShieldBurst_3.png</file>
+        <file>Images/ShieldBurst_4.png</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file alias="LASER">sounds/pewpew_14.wav</file>
+        <file alias="EXPLOSION2">sounds/boom4.wav</file>
+        <file alias="EXPLOSION">sounds/NenadSimic - Muffled Distant Explosion.wav</file>
+        <file alias="ALERT">sounds/alert_critical.wav</file>
+    </qresource>
+</RCC>
