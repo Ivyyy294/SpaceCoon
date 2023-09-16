@@ -1,0 +1,3 @@
+[submodule "LarasEngine"]
+	path = LarasEngine
+	url = https://github.com/Ivyyy294/LarasEngine.git
