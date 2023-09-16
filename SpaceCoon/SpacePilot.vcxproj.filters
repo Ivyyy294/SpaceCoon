@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Cutscene">
+      <UniqueIdentifier>{55ee6d53-ca96-40ea-902a-ce026d560f54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{77b7ef8a-6db6-4c07-95d5-4a2ea22c8c36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{438bdf86-40bc-45b9-9a5e-6a7ef4605080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level">
+      <UniqueIdentifier>{1e9caa49-1a96-4298-8a16-e0cf8dd781e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{a71c2784-ff45-4732-85d9-2de0049c4e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Header">
+      <UniqueIdentifier>{7d2ca6ee-af3c-4490-8d48-b2f1721b1a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\CPP">
+      <UniqueIdentifier>{4eef5765-6b6a-4150-84de-c340862ff66c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AiActions">
+      <UniqueIdentifier>{95be42a4-b794-436d-921d-1cfa081e2be9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpawnEnemy.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="SpawnMeteorit.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalGameValues.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpawnBoss.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroCutScene.cpp">
+      <Filter>Cutscene</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultLevel.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroLevel.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="SpawnHealthBubble.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Objects\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyShip.cpp">
+      <Filter>Objects\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="EnergyShield.cpp">
+      <Filter>Objects\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Objects\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Objects\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroDialog.cpp">
+      <Filter>Objects\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Meteorit.cpp">
+      <Filter>Objects\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreList.cpp">
+      <Filter>Objects\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>Objects\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipPlayer.cpp">
+      <Filter>Objects\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser.cpp">
+      <Filter>Objects\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldUp.cpp">
+      <Filter>Objects\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SpawnShieldUp.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="HpUp.cpp">
+      <Filter>Objects\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="HardcoreLevel.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionsEnemyShip.cpp">
+      <Filter>AiActions</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionsAllgemein.cpp">
+      <Filter>AiActions</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionBoss.cpp">
+      <Filter>AiActions</Filter>
+    </ClCompile>
+    <ClCompile Include="Rocket.cpp">
+      <Filter>Objects\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticField.cpp">
+      <Filter>Objects\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreBoardLevel.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldBurst.cpp">
+      <Filter>Objects\CPP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnEnemy.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnMeteorit.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalGameValues.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnBoss.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroCutScene.h">
+      <Filter>Cutscene</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultLevel.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroLevel.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnHealthBubble.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Objects\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyShip.h">
+      <Filter>Objects\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="EnergyShield.h">
+      <Filter>Objects\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Objects\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Objects\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroDialog.h">
+      <Filter>Objects\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Meteorit.h">
+      <Filter>Objects\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>Objects\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreList.h">
+      <Filter>Objects\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipPlayer.h">
+      <Filter>Objects\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Laser.h">
+      <Filter>Objects\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldUp.h">
+      <Filter>Objects\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnShieldUp.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="HpUp.h">
+      <Filter>Objects\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="HardcoreLevel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionsEnemyShip.h">
+      <Filter>AiActions</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionsAllgemein.h">
+      <Filter>AiActions</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionBoss.h">
+      <Filter>AiActions</Filter>
+    </ClInclude>
+    <ClInclude Include="Rocket.h">
+      <Filter>Objects\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticField.h">
+      <Filter>Objects\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreBoardLevel.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldBurst.h">
+      <Filter>Objects\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="SpacePilot.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="Menue.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Menue.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="JSON\player.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="JSON\Boss.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="JSON\enemy.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="JSON\textures.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="JSON\dialog_intro.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="JSON\score_list.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="JSON\asteroid.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="JSON\HUD.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="JSON\hud_bottom.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="JSON\hud_top.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="JSON\sounds.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="JSON\Shield_Up.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="JSON\Laser.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="JSON\rocket.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="JSON\InputDialog.json">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="JSON\Shield_burst.json">
+      <Filter>JSON</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SpaceCoon1.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Images\Space Coon Logo2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Space Coon Logo2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

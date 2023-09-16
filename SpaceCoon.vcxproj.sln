@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32901.82
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpaceCoon", "SpaceCoon\SpaceCoon.vcxproj.vcxproj", "{F1FC07E8-863F-44A9-B85D-E5843D9F6072}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LarasEngine", "LarasEngine\LarasEngine.vcxproj", "{56B9DD5F-5399-4A7A-BFC2-8789252D0109}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpaceCoon", "SpaceCoon\SpacePilot.vcxproj", "{F1FC07E8-863F-44A9-B85D-E5843D9F6072}"
+	ProjectSection(ProjectDependencies) = postProject
+		{56B9DD5F-5399-4A7A-BFC2-8789252D0109} = {56B9DD5F-5399-4A7A-BFC2-8789252D0109}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +16,10 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56B9DD5F-5399-4A7A-BFC2-8789252D0109}.Debug|x86.ActiveCfg = Debug|Win32
+		{56B9DD5F-5399-4A7A-BFC2-8789252D0109}.Debug|x86.Build.0 = Debug|Win32
+		{56B9DD5F-5399-4A7A-BFC2-8789252D0109}.Release|x86.ActiveCfg = Release|Win32
+		{56B9DD5F-5399-4A7A-BFC2-8789252D0109}.Release|x86.Build.0 = Release|Win32
 		{F1FC07E8-863F-44A9-B85D-E5843D9F6072}.Debug|x86.ActiveCfg = Debug|Win32
 		{F1FC07E8-863F-44A9-B85D-E5843D9F6072}.Debug|x86.Build.0 = Debug|Win32
 		{F1FC07E8-863F-44A9-B85D-E5843D9F6072}.Release|x86.ActiveCfg = Release|Win32

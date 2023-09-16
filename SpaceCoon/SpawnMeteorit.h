@@ -1,5 +1,6 @@
 #pragma once
-#include "C:\dev\MyProjects\LarasEngine\Event.h"
+#include "Event.h"
+
 class SpawnMeteorit :
     public LarasEngine::Event
 {
